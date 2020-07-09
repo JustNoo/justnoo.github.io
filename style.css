@@ -1,5 +1,9 @@
 body {
 	background: #EEE;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 2px;
 	margin: 0;
 	padding: 0;
 }
