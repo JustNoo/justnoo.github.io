@@ -38,8 +38,33 @@
 		<br>
 		<label for="amount">A counter</label>
 			<input id="amount" type="number" step="1" name="amount">
-		<label for="limamount">A sliding counter</label>
+		<br>
+		<label for="limamount">A capped counter</label>
 			<input id="limamount" type="number" min="0" max="5" type="range" step="0.5" name="limamount">
+		<br>
+		<label for="check">A checkbox</label>
+			<input id="check" name="check" type="checkbox" value="check">
+		<br>
+		<label for="yes">Yes</label>
+			<input id="yes" type="radio" name="radiosel" value="yes">
+        <label for="no">No</label>
+        	<input id="no" type="radio" name="radiosel" value="no">
+        <br>
+        <select name="selector" id="selector">
+        	<option value="1">1</option>
+        	<option value="2">2</option>
+        </select>
+        <br>
+        <datalist id="selectorwithinput">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="Other"></option>
+        </datalist>
+        <br>
+        <label for="extra">Anything else</label>
+        <textarea id="extra" name="extra" rows="3" cols="40">DefaultText</textarea>
+        <br>
+        <input type="submit" value="Submit">
 	</form>
 
 </body>
