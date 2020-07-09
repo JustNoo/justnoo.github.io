@@ -27,6 +27,21 @@
 			<td colspan="2">R3</td>
 		</tr>
 	</table>
+
+	<form action="./formout.html" method="POST">
+		<h1>Form</h1>
+        <label for="username">Username:</label>
+  			<input type="text" name="username" id="username">
+        <br>
+        <label for="user-pw">Password:</label>
+			<input id="user-pw" type="password" name="user-pw">
+		<br>
+		<label for="amount">A counter</label>
+			<input id="amount" type="number" step="1" name="amount">
+		<label for="limamount">A sliding counter</label>
+			<input id="limamount" type="number" min="0" max="5" type="range" step="0.5" name="limamount">
+	</form>
+
 </body>
 
 </html>
